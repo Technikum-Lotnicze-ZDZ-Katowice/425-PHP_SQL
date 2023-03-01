@@ -25,7 +25,7 @@
         if(!empty($_POST['imie']) && !empty($_POST['nazwisko']) && !empty($_POST['wiek'])){
             echo 'DODAWANIE ' . $_POST['imie'] . $_POST['nazwisko'] . $_POST['wiek'];
         
-            $addsql = "INSERT INTO users (id, imie, nazwisko, wiek) VALUES (NULL,'" . $_POST['imie'] ."','" . $_POST['nazwisko'] . "','" . $_POST['wiek'] ."')";
+$addsql = "INSERT INTO users (id, imie, nazwisko, wiek) VALUES (NULL,'" . $_POST['imie'] ."','" . $_POST['nazwisko'] . "','" . $_POST['wiek'] ."')";
         
             if(mysqli_query($con,$addsql)){
                 echo "RECORD ADDED";
@@ -56,4 +56,16 @@
             echo "</tr>";
         }
         echo "</table>";
+```
+
+### DELETE
+
+```php
+            $delsql = "DELETE FROM users WHERE id=10";
+            
+            if(mysqli_query($con,$delsql)){
+                echo "RECORD DELETED";
+            } else {
+                echo "DELETE ERROR";
+            };
 ```
