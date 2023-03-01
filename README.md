@@ -1,5 +1,9 @@
 # 425-PHP_SQL
 
+
+
+## CONNECTION
+
 ```php
     $con = mysqli_connect("localhost","root","","moja_baza");
 
@@ -11,6 +15,29 @@
       echo "CONNECTION OK";
     }
 ```
+
+##C.R.U.D operations
+
+### CREATE
+
+```php
+       if(isset($_POST['add'])){
+        if(!empty($_POST['imie']) && !empty($_POST['nazwisko']) && !empty($_POST['wiek'])){
+            echo 'DODAWANIE ' . $_POST['imie'] . $_POST['nazwisko'] . $_POST['wiek'];
+        
+            $addsql = "INSERT INTO users (id, imie, nazwisko, wiek) VALUES (NULL,'" . $_POST['imie'] ."','" . $_POST['nazwisko'] . "','" . $_POST['wiek'] ."')";
+        
+            if(mysqli_query($con,$addsql)){
+                echo "RECORD ADDED";
+            } else {
+                echo "ADD ERROR";
+            };
+        } else {
+            echo '<p style="color:red">Wypełnij wszystkie pola</p>';
+        }
+```
+
+### READ
 
 ```php
 
@@ -29,6 +56,4 @@
             echo "</tr>";
         }
         echo "</table>";
-
-
 ```
