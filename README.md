@@ -78,3 +78,23 @@ $updsql = "UPDATE users SET imie = '". $_POST['imie']."', nazwisko = '". $_POST[
                 echo "DELETE ERROR";
             };
 ```
+
+ZADANIE 42601
+
+Przygotuj zmodyfikowaną wersję kreatora zestawu komputerowego (prosty sklep internetowy) rozudowany o obsugę bazy danych:
+
+1. Stwórz podstronę dodawanie zawierającą formularz dodawania produktu
+2. Zapisz obrazy produktów w bazie danych (url)
+3. Stwórz podstrony/podstronę z kategoriami produktów
+4. Obsłuż akcjędodaj do koszyka
+5. Zapisz koszyk w bazie danych
+
+NA WYŻSZĄ OCENĘ:
+- uploaduj obrazy na serwer (upload)
+- uwzględnij kategorie produktów
+- zaimplementu sortowanie
+- zaimplementuj wyszukiwanie
+- zadbaj o wygląd strony
+
+
+NA OCENĘ CELUJĄCĄ - wszystkie powyższe punkty plus system logowania
