@@ -57,6 +57,15 @@ $addsql = "INSERT INTO users (id, imie, nazwisko, wiek) VALUES (NULL,'" . $_POST
         }
         echo "</table>";
 ```
+### UPDATE
+
+$updsql = "UPDATE users SET imie = '". $_POST['imie']."', nazwisko = '". $_POST['nazwisko']."', wiek = '". $_POST['wiek']."' WHERE id = " .$_POST['id'];
+
+        if(mysqli_query($con,$updsql)){
+             echo "RECORD UPDATED";
+        } else {
+             echo "ADD ERROR";
+        };
 
 ### DELETE
 
