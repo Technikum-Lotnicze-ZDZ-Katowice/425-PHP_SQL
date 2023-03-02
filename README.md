@@ -81,7 +81,7 @@ $updsql = "UPDATE users SET imie = '". $_POST['imie']."', nazwisko = '". $_POST[
 
 ZADANIE 42601
 
-Przygotuj zmodyfikowaną wersję kreatora zestawu komputerowego (prosty sklep internetowy) rozudowany o obsugę bazy danych:
+Przygotuj zmodyfikowaną wersję kreatora zestawu komputerowego (prosty sklep internetowy opisany w zad z lekcji 422 [422-PHP-forms](https://github.com/Technikum-Lotnicze-ZDZ-Katowice/422-PHP-forms) rozudowany o obsugę bazy danych:
 
 1. Stwórz podstronę dodawanie zawierającą formularz dodawania produktu
 2. Zapisz obrazy produktów w bazie danych (url)
