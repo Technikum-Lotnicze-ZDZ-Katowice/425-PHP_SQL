@@ -86,7 +86,7 @@ Przygotuj zmodyfikowaną wersję kreatora zestawu komputerowego (prosty sklep in
 1. Stwórz podstronę dodawanie zawierającą formularz dodawania produktu
 2. Zapisz obrazy produktów w bazie danych (url)
 3. Stwórz podstrony/podstronę z kategoriami produktów
-4. Obsłuż akcjędodaj do koszyka
+4. Obsłuż akcję dodaj do koszyka (koszyk wyświetla się stale w prawym górnym rogu)
 5. Zapisz koszyk w bazie danych
 
 NA WYŻSZĄ OCENĘ:
@@ -98,3 +98,5 @@ NA WYŻSZĄ OCENĘ:
 
 
 NA OCENĘ CELUJĄCĄ - wszystkie powyższe punkty plus system logowania
+
+https://miroslawzelent.pl/kurs-php/logowanie-do-strony-sesja-wstrzykiwanie-sql/
