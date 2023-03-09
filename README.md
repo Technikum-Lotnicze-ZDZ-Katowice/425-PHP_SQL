@@ -56,7 +56,7 @@
         echo "</table>";
 ```
 ### UPDATE
-
+```php
 $updsql = "UPDATE users SET imie = '". $_POST['imie']."', nazwisko = '". $_POST['nazwisko']."', wiek = '". $_POST['wiek']."' WHERE id = " .$_POST['id'];
 
         if(mysqli_query($con,$updsql)){
@@ -64,7 +64,7 @@ $updsql = "UPDATE users SET imie = '". $_POST['imie']."', nazwisko = '". $_POST[
         } else {
              echo "ADD ERROR";
         };
-
+```
 ### DELETE
 
 ```php
