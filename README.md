@@ -98,3 +98,7 @@ NA WYŻSZĄ OCENĘ:
 NA OCENĘ CELUJĄCĄ - wszystkie powyższe punkty plus system logowania
 
 https://miroslawzelent.pl/kurs-php/logowanie-do-strony-sesja-wstrzykiwanie-sql/
+
+
+ZADANIE DODATKOWE:
+https://github.com/Technikum-Lotnicze-ZDZ-Katowice/SILPITS-GRA-RPG
