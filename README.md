@@ -100,5 +100,5 @@ NA OCENĘ CELUJĄCĄ - wszystkie powyższe punkty plus system logowania
 https://miroslawzelent.pl/kurs-php/logowanie-do-strony-sesja-wstrzykiwanie-sql/
 
 
-ZADANIE DODATKOWE:
+ZADANIE DODATKOWE - GRA RPG:
 https://github.com/Technikum-Lotnicze-ZDZ-Katowice/SILPITS-GRA-RPG
