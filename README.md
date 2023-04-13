@@ -18,7 +18,7 @@
 
 ##C.R.U.D operations
 
-### CREATE
+### INSERT (CREATE RECORD)
 
 ```php
        if(isset($_POST['add'])){
