@@ -46,6 +46,10 @@
         echo '<table border="1">';
         while($row = mysqli_fetch_assoc($result)){
 
+//mysqli_fetch_row
+//mysqli_fetch_array
+//mysqli_fetch_assoc
+
             echo "<tr>";
             echo "<td>" . $row['id'] . "</td>";
             echo "<td>" . $row['imie'] . "</td>";
