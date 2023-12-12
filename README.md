@@ -81,6 +81,15 @@ $updsql = "UPDATE users SET imie = '". $_POST['imie']."', nazwisko = '". $_POST[
             };
 ```
 
+Sprawdzanie co się wysyła
+
+```PHP
+echo "<pre>";
+print_r($_POST);
+echo "</pre>";
+
+```
+
 ZADANIE 42601
 
 Przygotuj zmodyfikowaną wersję kreatora zestawu komputerowego (prosty sklep internetowy opisany w zad z lekcji [422-PHP-forms](https://github.com/Technikum-Lotnicze-ZDZ-Katowice/422-PHP-forms) rozudowany o obsugę bazy danych:
